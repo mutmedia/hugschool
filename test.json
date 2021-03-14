@@ -1,0 +1,4949 @@
+{
+  "SaveName": "Test",
+  "GameMode": "None",
+  "Date": "3/14/2021 7:14:32 PM",
+  "VersionNumber": "v13.0.5",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_RPG",
+  "Sky": "Sky_Tunnel",
+  "Note": "",
+  "Rules": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "ComponentTags": {
+    "labels": []
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true
+  },
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "DecalPallet": [],
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "VectorLines": [
+    {
+      "points3": [
+        {
+          "x": -4.35331869,
+          "y": 0.971135,
+          "z": 0.484183371
+        },
+        {
+          "x": -4.282541,
+          "y": 0.971135139,
+          "z": 0.582663953
+        }
+      ],
+      "color": {
+        "r": 1.0,
+        "g": 0.7769515,
+        "b": 0.117646992
+      },
+      "thickness": 0.1
+    },
+    {
+      "points3": [
+        {
+          "x": -10.5421438,
+          "y": 0.9711342,
+          "z": -11.55265
+        },
+        {
+          "x": -10.5421438,
+          "y": 0.9711342,
+          "z": -11.55265
+        }
+      ],
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "thickness": 0.1
+    }
+  ],
+  "ObjectStates": [
+    {
+      "GUID": "8dcf03",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -15.1107731,
+        "posY": 4.81034231,
+        "posZ": -20.1076221,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7719851,
+        "scaleY": 9.174497,
+        "scaleZ": 4.871238
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Red",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "075217",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.2150211,
+        "posY": 4.81034231,
+        "posZ": 10.17524,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554289,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Yellow",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c69433",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 30.2511711,
+        "posY": 4.81034231,
+        "posZ": 9.59069252,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554213,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999978,
+        "b": 0.941,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Purple",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4e169a",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 15.4749184,
+        "posY": 4.81034231,
+        "posZ": 19.8365288,
+        "rotX": 0.0,
+        "rotY": 179.8,
+        "rotZ": 0.0,
+        "scaleX": 11.7719746,
+        "scaleY": 9.174497,
+        "scaleZ": 4.87124
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Blue",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "043cbe",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 15.1961212,
+        "posY": 4.81034231,
+        "posZ": -20.1400986,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7719707,
+        "scaleY": 9.174499,
+        "scaleZ": 4.871238
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "White",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "69d431",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -15.1927719,
+        "posY": 4.81034231,
+        "posZ": 19.787817,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7719707,
+        "scaleY": 9.174497,
+        "scaleZ": 4.871238
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.191999972,
+        "g": 0.701,
+        "b": 0.167999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Green",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "9a3df5",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 30.1035728,
+        "posY": 4.81034231,
+        "posZ": -8.449126,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554184,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438999981,
+        "b": 0.807,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Pink",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "aef17a",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.247818,
+        "posY": 4.81034231,
+        "posZ": -8.822588,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554317,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.39199996,
+        "b": 0.112999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Orange",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "fda3d9",
+      "Name": "rpg_RAT",
+      "Transform": {
+        "posX": -3.159844,
+        "posY": 1.12241578,
+        "posZ": 6.466478,
+        "rotX": -1.96481255E-06,
+        "rotY": 119.982094,
+        "rotZ": 1.02547556E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.2941176,
+        "g": 0.2941176,
+        "b": 0.2941176
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "RPGmode": false,
+      "RPGdead": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d774ae",
+      "Name": "Bag",
+      "Transform": {
+        "posX": -6.23422337,
+        "posY": 2.040745,
+        "posZ": -8.597174,
+        "rotX": 81.0996857,
+        "rotY": 315.5662,
+        "rotZ": 180.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 0,
+      "Bag": {
+        "Order": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0df3b9",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": 30.1035728,
+        "posY": 5.62712336,
+        "posZ": -8.449126,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 500,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Meriones_unguiculatus_(wild).jpg/1200px-Meriones_unguiculatus_(wild).jpg",
+          "BackURL": "https://partycity6.scene7.com/is/image/PartyCity/_pdp_sq_?$_1000x1000_$&$product=PartyCity/35766_01",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "78e11c",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -8.055252,
+        "posY": 2.63730288,
+        "posZ": 10.1793842,
+        "rotX": 7.761255E-07,
+        "rotY": 314.997131,
+        "rotZ": 5.68007226E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d0c005",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -14.6768417,
+        "posY": 2.63730216,
+        "posZ": 9.840425,
+        "rotX": 1.06426223E-05,
+        "rotY": 119.97921,
+        "rotZ": -3.831407E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "fd217c",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -4.746646,
+        "posY": 2.63730288,
+        "posZ": 15.282896,
+        "rotX": 1.22582251E-05,
+        "rotY": 60.00004,
+        "rotZ": -3.55973748E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "b49c10",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 11.2544374,
+        "posY": 10.5852566,
+        "posZ": 21.37403,
+        "rotX": 325.633636,
+        "rotY": 308.7434,
+        "rotZ": 264.391052,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "86f9f2",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 11.8743181,
+        "posY": 11.5808048,
+        "posZ": -21.4572887,
+        "rotX": 354.5883,
+        "rotY": 46.4349556,
+        "rotZ": 200.2603,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "872765",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -11.94174,
+        "posY": 2.63730049,
+        "posZ": -7.67334,
+        "rotX": -1.01244893E-06,
+        "rotY": 180.000015,
+        "rotZ": -3.66708286E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "242370",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 2.68187881,
+        "posY": 2.63730264,
+        "posZ": 5.58235741,
+        "rotX": -1.53573342E-06,
+        "rotY": 29.999424,
+        "rotZ": -1.01333935E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "83373f",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -16.0962658,
+        "posY": 2.63730264,
+        "posZ": -8.557922,
+        "rotX": -2.80502923E-06,
+        "rotY": 330.000427,
+        "rotZ": -1.37080019E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "29d786",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -14.4101162,
+        "posY": 2.6373024,
+        "posZ": -3.664056,
+        "rotX": 3.98696648E-06,
+        "rotY": 75.00112,
+        "rotZ": -7.767612E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "5bbc85",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -2.89573717,
+        "posY": 2.637304,
+        "posZ": -13.0555563,
+        "rotX": 1.97768577E-06,
+        "rotY": 104.977806,
+        "rotZ": -3.52303528E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "b140b8",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 16.4733925,
+        "posY": 4.01921654,
+        "posZ": 21.2143669,
+        "rotX": 1.00310373,
+        "rotY": 32.63691,
+        "rotZ": 90.61441,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d492ee",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -17.7296124,
+        "posY": 2.63730335,
+        "posZ": -11.3985834,
+        "rotX": -1.79524409E-06,
+        "rotY": 224.979675,
+        "rotZ": 1.14915192E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "29ec5d",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 3.05274463,
+        "posY": 2.637305,
+        "posZ": -0.844223261,
+        "rotX": 2.420526E-06,
+        "rotY": 314.999268,
+        "rotZ": -5.323677E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "db400e",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -0.09780429,
+        "posY": 2.637301,
+        "posZ": 7.25103474,
+        "rotX": -3.10353857E-06,
+        "rotY": 254.999924,
+        "rotZ": -3.69872146E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "89ed80",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -7.39455462,
+        "posY": 2.63730359,
+        "posZ": 4.097094,
+        "rotX": 3.70100537E-07,
+        "rotY": 285.000824,
+        "rotZ": -3.90359446E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0d7741",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 5.43153238,
+        "posY": 2.637302,
+        "posZ": -2.81181479,
+        "rotX": 3.86022839E-06,
+        "rotY": 359.9893,
+        "rotZ": -6.90586376E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "ed5b06",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -8.757051,
+        "posY": 2.63730478,
+        "posZ": 13.1644745,
+        "rotX": -5.607476E-07,
+        "rotY": 224.999557,
+        "rotZ": -7.130705E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c0e4d8",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -20.6023769,
+        "posY": 2.637304,
+        "posZ": 2.65481162,
+        "rotX": -8.865188E-06,
+        "rotY": 344.999451,
+        "rotZ": -8.820828E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "399672",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -1.26362157,
+        "posY": 2.63730335,
+        "posZ": -15.84199,
+        "rotX": 2.29460534E-06,
+        "rotY": 135.005447,
+        "rotZ": -3.07629875E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4e20bd",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -19.54101,
+        "posY": 2.6373024,
+        "posZ": 10.2701254,
+        "rotX": 3.15924626E-06,
+        "rotY": 180.008438,
+        "rotZ": -3.97833537E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "81a640",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 3.64166713,
+        "posY": 2.637304,
+        "posZ": 0.47520566,
+        "rotX": 4.3534933E-06,
+        "rotY": 270.000183,
+        "rotZ": -3.5649216E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e887d1",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -13.3314238,
+        "posY": 2.63730454,
+        "posZ": 14.3264418,
+        "rotX": 6.35767174E-06,
+        "rotY": 240.022278,
+        "rotZ": -4.641623E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a02c9d",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -23.8802319,
+        "posY": 2.63730478,
+        "posZ": 7.64914274,
+        "rotX": 6.299667E-06,
+        "rotY": 104.998734,
+        "rotZ": 8.875067E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "19bfc1",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -23.5267715,
+        "posY": 2.63730454,
+        "posZ": 14.6830635,
+        "rotX": 4.687918E-06,
+        "rotY": 14.978528,
+        "rotZ": -4.545934E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e1fe01",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -20.8813267,
+        "posY": 2.637303,
+        "posZ": 15.4570961,
+        "rotX": 3.23070321E-06,
+        "rotY": 30.12472,
+        "rotZ": -7.19442824E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7dfa4d",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -22.68967,
+        "posY": 2.63730335,
+        "posZ": 12.4446154,
+        "rotX": -1.35858056E-06,
+        "rotY": 14.9908991,
+        "rotZ": -7.03329033E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7b5383",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -22.7757359,
+        "posY": 2.63730359,
+        "posZ": 9.808001,
+        "rotX": 1.20152454E-05,
+        "rotY": 269.9987,
+        "rotZ": -2.938255E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "78904a",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -20.70885,
+        "posY": 2.63730431,
+        "posZ": 8.12327,
+        "rotX": 7.26297742E-07,
+        "rotY": 5.31936639E-05,
+        "rotZ": -6.811175E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f31eec",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -21.2630615,
+        "posY": 2.63730335,
+        "posZ": 5.7477,
+        "rotX": 9.622266E-06,
+        "rotY": -0.003223338,
+        "rotZ": -3.52285042E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a3df17",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -23.7016773,
+        "posY": 2.6373024,
+        "posZ": 1.01674473,
+        "rotX": 5.491899E-06,
+        "rotY": 239.989929,
+        "rotZ": -3.69579E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "74e139",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -22.3912754,
+        "posY": 2.637302,
+        "posZ": -0.883289337,
+        "rotX": 8.746552E-06,
+        "rotY": 254.935883,
+        "rotZ": -6.72111264E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "ba199e",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -25.1115913,
+        "posY": 2.63730431,
+        "posZ": -2.33175015,
+        "rotX": -8.940405E-07,
+        "rotY": 165.002014,
+        "rotZ": -1.69066925E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "511d01",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -19.3500977,
+        "posY": 2.63730454,
+        "posZ": -9.5910635,
+        "rotX": 2.27265427E-05,
+        "rotY": 299.989136,
+        "rotZ": -5.53818563E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "b4fcc7",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -18.46488,
+        "posY": 2.637303,
+        "posZ": -8.457877,
+        "rotX": -3.00489478E-06,
+        "rotY": 345.001251,
+        "rotZ": -3.4887812E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "789e6e",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -23.8590641,
+        "posY": 2.6373024,
+        "posZ": -14.5656252,
+        "rotX": 6.087365E-07,
+        "rotY": 60.0003433,
+        "rotZ": -3.237589E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "1ebe9d",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -22.99855,
+        "posY": 2.63730264,
+        "posZ": -3.00823164,
+        "rotX": 5.14618E-07,
+        "rotY": 0.000121688478,
+        "rotZ": -6.522978E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d1286b",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -23.8489056,
+        "posY": 2.63730741,
+        "posZ": -7.8233695,
+        "rotX": 8.643343E-07,
+        "rotY": 254.999039,
+        "rotZ": -4.6431137E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4171c2",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -20.511961,
+        "posY": 2.63730335,
+        "posZ": -3.477407,
+        "rotX": 5.00400347E-06,
+        "rotY": 29.9964123,
+        "rotZ": -6.92359254E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e6aa86",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -25.8426971,
+        "posY": 2.63730025,
+        "posZ": -13.3366051,
+        "rotX": -3.89607658E-06,
+        "rotY": 180.00061,
+        "rotZ": -3.74824617E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "449bca",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -21.762043,
+        "posY": 2.63730049,
+        "posZ": -6.04742765,
+        "rotX": -1.38514133E-06,
+        "rotY": 179.998657,
+        "rotZ": -8.113767E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f5a140",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -9.59254551,
+        "posY": 2.63730431,
+        "posZ": -5.20263863,
+        "rotX": 2.32234E-06,
+        "rotY": 300.0233,
+        "rotZ": 4.275492E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d94a0e",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -15.0596886,
+        "posY": 2.63730288,
+        "posZ": -16.1849327,
+        "rotX": 3.060581E-06,
+        "rotY": 224.978928,
+        "rotZ": -6.10966163E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7233e5",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -0.5349019,
+        "posY": 2.6373,
+        "posZ": 15.13791,
+        "rotX": 7.962839E-06,
+        "rotY": 59.9996872,
+        "rotZ": -3.52998131E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c591b3",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -24.4312534,
+        "posY": 2.637304,
+        "posZ": -5.357888,
+        "rotX": 2.0547619E-05,
+        "rotY": 345.032166,
+        "rotZ": 2.075702E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "758674",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -9.510808,
+        "posY": 2.63730431,
+        "posZ": -15.7896,
+        "rotX": 5.582033E-06,
+        "rotY": 105.0019,
+        "rotZ": -2.28608883E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "363c5c",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 17.1006222,
+        "posY": 4.061572,
+        "posZ": 19.5644684,
+        "rotX": 89.93439,
+        "rotY": 105.71981,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "1e4ef1",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 20.7445755,
+        "posY": 4.01151657,
+        "posZ": 20.7906475,
+        "rotX": -1.02452841E-05,
+        "rotY": 152.74733,
+        "rotZ": 90.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d65cb4",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -9.342107,
+        "posY": 2.637303,
+        "posZ": 2.32745314,
+        "rotX": 6.907478E-08,
+        "rotY": 165.013962,
+        "rotZ": -6.492201E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f74545",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -5.53184748,
+        "posY": 2.63730216,
+        "posZ": 10.6314735,
+        "rotX": 5.499875E-06,
+        "rotY": 165.002045,
+        "rotZ": -4.221979E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "56b42f",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -26.11066,
+        "posY": 2.63730335,
+        "posZ": 3.60710239,
+        "rotX": -7.91444336E-07,
+        "rotY": 59.7122955,
+        "rotZ": 7.521212E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0ea00d",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -17.2827721,
+        "posY": 2.6373055,
+        "posZ": 6.962818,
+        "rotX": 4.32011848E-06,
+        "rotY": 345.000427,
+        "rotZ": 1.57602278E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2ec5ab",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -26.4250088,
+        "posY": 2.637305,
+        "posZ": -3.34480834,
+        "rotX": 3.87388127E-06,
+        "rotY": 314.992126,
+        "rotZ": 4.715753E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "3e7a93",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -14.2575159,
+        "posY": 2.637303,
+        "posZ": 5.512518,
+        "rotX": -4.838429E-06,
+        "rotY": 59.9998932,
+        "rotZ": -1.31501556E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "b06b77",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 6.60456467,
+        "posY": 2.637303,
+        "posZ": 3.332907,
+        "rotX": -3.29624754E-06,
+        "rotY": 314.983948,
+        "rotZ": -7.16266868E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "bf7e6e",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -7.47407627,
+        "posY": 2.63730431,
+        "posZ": -11.90778,
+        "rotX": 7.882846E-06,
+        "rotY": 224.981659,
+        "rotZ": 2.13442536E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0caf07",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -18.6399174,
+        "posY": 2.63730216,
+        "posZ": 15.13099,
+        "rotX": -3.85536259E-06,
+        "rotY": 165.001068,
+        "rotZ": -1.9987138E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "8cd50d",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -26.9033985,
+        "posY": 2.63730359,
+        "posZ": -0.5530424,
+        "rotX": -3.10163841E-07,
+        "rotY": 90.00397,
+        "rotZ": -1.66676773E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f34233",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -14.2512484,
+        "posY": 2.63730335,
+        "posZ": -11.8285971,
+        "rotX": -1.69477335E-06,
+        "rotY": 270.000336,
+        "rotZ": -1.08594013E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "ebe91f",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -26.4760838,
+        "posY": 2.63730288,
+        "posZ": -17.2175465,
+        "rotX": 1.794012E-05,
+        "rotY": -0.004375929,
+        "rotZ": -7.19594573E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "544bc0",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -0.81788373,
+        "posY": 2.6373024,
+        "posZ": -11.1240053,
+        "rotX": 2.455017E-06,
+        "rotY": 0.00294254441,
+        "rotZ": -5.184946E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e7bb8a",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -10.6278439,
+        "posY": 2.63730216,
+        "posZ": -10.7458382,
+        "rotX": -2.47719845E-06,
+        "rotY": 269.9824,
+        "rotZ": -1.73756541E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "567d55",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -26.1646042,
+        "posY": 2.63730216,
+        "posZ": -7.77861357,
+        "rotX": 4.637647E-06,
+        "rotY": 59.9992256,
+        "rotZ": 3.64825752E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0987e2",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -0.528996,
+        "posY": 2.637303,
+        "posZ": 4.837166,
+        "rotX": 8.987911E-07,
+        "rotY": 329.9995,
+        "rotZ": -6.08225E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f8358f",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -1.31948245,
+        "posY": 2.63730359,
+        "posZ": 9.969754,
+        "rotX": -3.30472361E-08,
+        "rotY": 209.997086,
+        "rotZ": -5.35531626E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "60aaef",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -21.38801,
+        "posY": 2.63730526,
+        "posZ": -16.6033325,
+        "rotX": -1.00494508E-05,
+        "rotY": 165.00563,
+        "rotZ": -2.21140135E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "af92c3",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -8.13489,
+        "posY": 2.63730335,
+        "posZ": 15.813139,
+        "rotX": -5.76315824E-06,
+        "rotY": 330.018921,
+        "rotZ": -7.643887E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "23be56",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -9.900523,
+        "posY": 2.63730264,
+        "posZ": 6.4855175,
+        "rotX": -1.86585692E-06,
+        "rotY": 344.999146,
+        "rotZ": -8.14213649E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "6f7443",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -13.6865683,
+        "posY": 2.63730526,
+        "posZ": 1.26494467,
+        "rotX": 3.68357132E-06,
+        "rotY": 194.999847,
+        "rotZ": -5.423048E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "627d53",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 9.317988,
+        "posY": 2.63730288,
+        "posZ": -3.26658535,
+        "rotX": -3.08149743E-06,
+        "rotY": 105.003716,
+        "rotZ": 2.23407415E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a4cd19",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 1.58730662,
+        "posY": 2.63730145,
+        "posZ": 3.642129,
+        "rotX": -2.22879362E-06,
+        "rotY": 329.9992,
+        "rotZ": -5.38698532E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "074136",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 2.49285769,
+        "posY": 2.63730216,
+        "posZ": 14.6662483,
+        "rotX": 2.56189253E-07,
+        "rotY": 330.000336,
+        "rotZ": -6.3643E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "af5ce8",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -18.0271015,
+        "posY": 2.63730025,
+        "posZ": 12.6712255,
+        "rotX": -3.153424E-06,
+        "rotY": 179.999,
+        "rotZ": -9.805086E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e2a8b9",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -10.8154459,
+        "posY": 2.63730216,
+        "posZ": 9.661409,
+        "rotX": 8.041193E-06,
+        "rotY": 150.000443,
+        "rotZ": -2.01037028E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "93b653",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -26.8849869,
+        "posY": 2.63730383,
+        "posZ": -6.03512955,
+        "rotX": 4.664436E-06,
+        "rotY": 209.9778,
+        "rotZ": -4.319021E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0ee3c8",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": 0.332836747,
+        "posY": 2.63730359,
+        "posZ": -7.79594,
+        "rotX": 9.238272E-06,
+        "rotY": 74.99495,
+        "rotZ": -7.444882E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f6aa1a",
+      "Name": "Tileset_Tree",
+      "Transform": {
+        "posX": -25.99324,
+        "posY": 2.63730478,
+        "posZ": 16.8758087,
+        "rotX": 1.68302677E-06,
+        "rotY": 15.0003881,
+        "rotZ": -4.21750065E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0c6a55",
+      "Name": "rpg_WOLF",
+      "Transform": {
+        "posX": 17.8233566,
+        "posY": 1.668865,
+        "posZ": -17.53885,
+        "rotX": 84.18563,
+        "rotY": 180.636765,
+        "rotZ": 180.000259,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.2941176,
+        "g": 0.2941176,
+        "b": 0.2941176
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "RPGmode": false,
+      "RPGdead": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "eb1d89",
+      "Name": "rpg_RAT",
+      "Transform": {
+        "posX": 24.9530067,
+        "posY": 1.61484182,
+        "posZ": 17.3324318,
+        "rotX": 304.960327,
+        "rotY": 233.366669,
+        "rotZ": 180.000061,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.2941176,
+        "g": 0.2941176,
+        "b": 0.2941176
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "RPGmode": false,
+      "RPGdead": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f40e83",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": -2.91465926,
+        "posY": 0.973604739,
+        "posZ": -0.454954833,
+        "rotX": 4.64790276E-07,
+        "rotY": 90.0000153,
+        "rotZ": -7.409553E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 400,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1744554976556214811/C9E3BF8965C8BA955EC0D32EC81905112A422FBE/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/1744554976556217346/B2DF3CA91103D6978729D4077518178CAC4BE5A8/",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedVectorLines": [
+        {
+          "points3": [
+            {
+              "x": 0.824663341,
+              "y": 0.36315167,
+              "z": -1.24260306
+            },
+            {
+              "x": 0.7891992,
+              "y": 0.36315167,
+              "z": -1.03293622
+            },
+            {
+              "x": 0.7787205,
+              "y": 0.363151729,
+              "z": -0.8977177
+            },
+            {
+              "x": 0.751008153,
+              "y": 0.363151729,
+              "z": -0.782847643
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 0.7489661,
+              "y": 0.36315167,
+              "z": -1.003111
+            },
+            {
+              "x": 0.644683,
+              "y": 0.363151729,
+              "z": -0.99465394
+            },
+            {
+              "x": 0.5632913,
+              "y": 0.36315167,
+              "z": -1.03467333
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 0.5420956,
+              "y": 0.36315167,
+              "z": -1.27654922
+            },
+            {
+              "x": 0.49818638,
+              "y": 0.36315167,
+              "z": -1.17786229
+            },
+            {
+              "x": 0.482207716,
+              "y": 0.36315167,
+              "z": -1.074538
+            },
+            {
+              "x": 0.47500968,
+              "y": 0.36315167,
+              "z": -0.9628192
+            },
+            {
+              "x": 0.469309449,
+              "y": 0.363151729,
+              "z": -0.874215841
+            },
+            {
+              "x": 0.4722053,
+              "y": 0.363151729,
+              "z": -0.7769716
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 0.312954366,
+              "y": 0.363151729,
+              "z": -0.856387854
+            },
+            {
+              "x": 0.2935917,
+              "y": 0.363151729,
+              "z": -0.9942577
+            },
+            {
+              "x": 0.291267753,
+              "y": 0.363151729,
+              "z": -1.1147306
+            },
+            {
+              "x": 0.2567588,
+              "y": 0.363151729,
+              "z": -1.31917667
+            },
+            {
+              "x": 0.223280713,
+              "y": 0.3631518,
+              "z": -1.37956524
+            },
+            {
+              "x": 0.165474728,
+              "y": 0.363151729,
+              "z": -1.32254314
+            },
+            {
+              "x": 0.106052242,
+              "y": 0.363151729,
+              "z": -1.22124553
+            },
+            {
+              "x": 0.0474097021,
+              "y": 0.363151729,
+              "z": -1.1213007
+            },
+            {
+              "x": -0.0019955046,
+              "y": 0.363151729,
+              "z": -1.01345825
+            },
+            {
+              "x": -0.0236472283,
+              "y": 0.363151729,
+              "z": -0.922904
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 0.174160659,
+              "y": 0.363151729,
+              "z": -0.9605758
+            },
+            {
+              "x": 0.0783783,
+              "y": 0.363151729,
+              "z": -1.0182395
+            },
+            {
+              "x": 0.008415164,
+              "y": 0.363151729,
+              "z": -1.04806519
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.0889874548,
+              "y": 0.363151729,
+              "z": -1.26930952
+            },
+            {
+              "x": -0.119721726,
+              "y": 0.363151729,
+              "z": -1.16412878
+            },
+            {
+              "x": -0.141674072,
+              "y": 0.363151729,
+              "z": -1.05098343
+            },
+            {
+              "x": -0.171772629,
+              "y": 0.363151729,
+              "z": -0.9481654
+            },
+            {
+              "x": -0.141674072,
+              "y": 0.363151729,
+              "z": -1.05098343
+            },
+            {
+              "x": -0.109511413,
+              "y": 0.363151729,
+              "z": -1.19907618
+            },
+            {
+              "x": -0.123940215,
+              "y": 0.363151729,
+              "z": -1.284059
+            },
+            {
+              "x": -0.203719661,
+              "y": 0.363151729,
+              "z": -1.27826214
+            },
+            {
+              "x": -0.266703039,
+              "y": 0.363151729,
+              "z": -1.2321496
+            },
+            {
+              "x": -0.269550741,
+              "y": 0.363151729,
+              "z": -1.144434
+            },
+            {
+              "x": -0.236636639,
+              "y": 0.363151729,
+              "z": -1.08609867
+            },
+            {
+              "x": -0.185404316,
+              "y": 0.363151729,
+              "z": -1.05311823
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.388566166,
+              "y": 0.363151729,
+              "z": -1.22840166
+            },
+            {
+              "x": -0.39272663,
+              "y": 0.363151729,
+              "z": -1.07617593
+            },
+            {
+              "x": -0.39508146,
+              "y": 0.363151729,
+              "z": -0.9900551
+            },
+            {
+              "x": -0.406274438,
+              "y": 0.3631518,
+              "z": -0.892273843
+            },
+            {
+              "x": -0.384383,
+              "y": 0.363151729,
+              "z": -1.06711125
+            },
+            {
+              "x": -0.4646845,
+              "y": 0.363151729,
+              "z": -1.28849864
+            },
+            {
+              "x": -0.535521865,
+              "y": 0.363151729,
+              "z": -1.1867137
+            },
+            {
+              "x": -0.5290494,
+              "y": 0.363151729,
+              "z": -1.09134436
+            },
+            {
+              "x": -0.496844828,
+              "y": 0.363151729,
+              "z": -1.0124495
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.3568595,
+              "y": 0.363151819,
+              "z": -0.61803323
+            },
+            {
+              "x": -0.281291276,
+              "y": 0.3631518,
+              "z": -0.6486727
+            },
+            {
+              "x": -0.198893,
+              "y": 0.3631518,
+              "z": -0.6465335
+            },
+            {
+              "x": -0.106526867,
+              "y": 0.3631518,
+              "z": -0.626550436
+            },
+            {
+              "x": -0.0240498558,
+              "y": 0.3631518,
+              "z": -0.6244023
+            },
+            {
+              "x": 0.04526842,
+              "y": 0.3631518,
+              "z": -0.6251
+            },
+            {
+              "x": 0.114627481,
+              "y": 0.3631518,
+              "z": -0.625804543
+            },
+            {
+              "x": 0.203707665,
+              "y": 0.3631518,
+              "z": -0.590826631
+            },
+            {
+              "x": 0.242975086,
+              "y": 0.3631518,
+              "z": -0.519587636
+            },
+            {
+              "x": 0.199759871,
+              "y": 0.3631518,
+              "z": -0.450721651
+            },
+            {
+              "x": 0.127235368,
+              "y": 0.3631518,
+              "z": -0.435189635
+            },
+            {
+              "x": 0.04496606,
+              "y": 0.3631518,
+              "z": -0.437393874
+            },
+            {
+              "x": -0.0339691676,
+              "y": 0.3631518,
+              "z": -0.4544718
+            },
+            {
+              "x": -0.10301441,
+              "y": 0.3631518,
+              "z": -0.453821152
+            },
+            {
+              "x": -0.172029018,
+              "y": 0.3631518,
+              "z": -0.453168362
+            },
+            {
+              "x": -0.2541345,
+              "y": 0.3631518,
+              "z": -0.4553598
+            },
+            {
+              "x": -0.332998663,
+              "y": 0.363151819,
+              "z": -0.4724229
+            },
+            {
+              "x": -0.3564787,
+              "y": 0.363151819,
+              "z": -0.5554324
+            },
+            {
+              "x": -0.327288657,
+              "y": 0.363151819,
+              "z": -0.627292931
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 0.7769515,
+            "b": 0.117646992
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 0.7955347,
+              "y": 0.3631519,
+              "z": 0.664132
+            },
+            {
+              "x": 0.801151931,
+              "y": 0.363151848,
+              "z": 0.73715806
+            },
+            {
+              "x": 0.800681531,
+              "y": 0.363151968,
+              "z": 0.816346765
+            },
+            {
+              "x": 0.8023718,
+              "y": 0.363152027,
+              "z": 0.866356
+            },
+            {
+              "x": 0.7986037,
+              "y": 0.3631519,
+              "z": 0.915786266
+            },
+            {
+              "x": 0.7997551,
+              "y": 0.363152027,
+              "z": 0.9720596
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 0.7927034,
+              "y": 0.3631519,
+              "z": 0.627336
+            },
+            {
+              "x": 0.828815341,
+              "y": 0.3631519,
+              "z": 0.6654607
+            },
+            {
+              "x": 0.871437132,
+              "y": 0.3631519,
+              "z": 0.6890805
+            },
+            {
+              "x": 0.907192945,
+              "y": 0.363151848,
+              "z": 0.7268927
+            },
+            {
+              "x": 0.9335833,
+              "y": 0.363151968,
+              "z": 0.7424437
+            },
+            {
+              "x": 0.92930454,
+              "y": 0.3631519,
+              "z": 0.79278326
+            },
+            {
+              "x": 0.861365855,
+              "y": 0.363152027,
+              "z": 0.8829118
+            },
+            {
+              "x": 0.807875,
+              "y": 0.3631519,
+              "z": 0.9372957
+            },
+            {
+              "x": 0.784007,
+              "y": 0.363152027,
+              "z": 0.964428067
+            },
+            {
+              "x": 0.77544266,
+              "y": 0.363152027,
+              "z": 1.00600207
+            },
+            {
+              "x": 0.772325933,
+              "y": 0.363152027,
+              "z": 1.047536
+            },
+            {
+              "x": 0.7687138,
+              "y": 0.363152027,
+              "z": 1.09567368
+            },
+            {
+              "x": 0.8149436,
+              "y": 0.363152027,
+              "z": 1.12495387
+            },
+            {
+              "x": 0.841216147,
+              "y": 0.363152027,
+              "z": 1.13284981
+            },
+            {
+              "x": 0.9061433,
+              "y": 0.363152027,
+              "z": 1.12859452
+            },
+            {
+              "x": 0.9395303,
+              "y": 0.3631519,
+              "z": 1.11622262
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 0.5937164,
+              "y": 0.363152027,
+              "z": 1.1366328
+            },
+            {
+              "x": 0.580150962,
+              "y": 0.363152027,
+              "z": 1.09501612
+            },
+            {
+              "x": 0.562757432,
+              "y": 0.363152027,
+              "z": 1.02531564
+            },
+            {
+              "x": 0.540564,
+              "y": 0.363151968,
+              "z": 0.940685034
+            },
+            {
+              "x": 0.5239599,
+              "y": 0.3631519,
+              "z": 0.8481333
+            },
+            {
+              "x": 0.5122453,
+              "y": 0.3631519,
+              "z": 0.7617438
+            },
+            {
+              "x": 0.499994338,
+              "y": 0.363151968,
+              "z": 0.6815473
+            },
+            {
+              "x": 0.491619378,
+              "y": 0.3631519,
+              "z": 0.6300169
+            },
+            {
+              "x": 0.4833886,
+              "y": 0.3631519,
+              "z": 0.680884361
+            },
+            {
+              "x": 0.460511476,
+              "y": 0.363151968,
+              "z": 0.8027706
+            },
+            {
+              "x": 0.4380328,
+              "y": 0.363152027,
+              "z": 0.9225348
+            },
+            {
+              "x": 0.405821234,
+              "y": 0.363152027,
+              "z": 1.02598274
+            },
+            {
+              "x": 0.3867292,
+              "y": 0.3631519,
+              "z": 1.08729887
+            },
+            {
+              "x": 0.3728461,
+              "y": 0.3631519,
+              "z": 1.15506172
+            },
+            {
+              "x": 0.365956753,
+              "y": 0.3631519,
+              "z": 1.18868661
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 0.5129963,
+              "y": 0.363152027,
+              "z": 1.044104
+            },
+            {
+              "x": 0.437857538,
+              "y": 0.3631519,
+              "z": 1.034188
+            },
+            {
+              "x": 0.379471451,
+              "y": 0.3631519,
+              "z": 1.01106071
+            },
+            {
+              "x": 0.34765926,
+              "y": 0.3631519,
+              "z": 0.995893
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 0.277149856,
+              "y": 0.363152027,
+              "z": 1.13763571
+            },
+            {
+              "x": 0.2521559,
+              "y": 0.363152027,
+              "z": 1.08878827
+            },
+            {
+              "x": 0.228432372,
+              "y": 0.363152027,
+              "z": 0.998084962
+            },
+            {
+              "x": 0.189410985,
+              "y": 0.3631519,
+              "z": 0.8631849
+            },
+            {
+              "x": 0.154923648,
+              "y": 0.3631519,
+              "z": 0.7330575
+            },
+            {
+              "x": 0.129920766,
+              "y": 0.3631519,
+              "z": 0.637567043
+            },
+            {
+              "x": 0.111220792,
+              "y": 0.3631519,
+              "z": 0.7168608
+            },
+            {
+              "x": 0.103519194,
+              "y": 0.363151968,
+              "z": 0.802829862
+            },
+            {
+              "x": 0.09081234,
+              "y": 0.363151968,
+              "z": 0.873408437
+            },
+            {
+              "x": 0.0627518147,
+              "y": 0.363152027,
+              "z": 0.907555938
+            },
+            {
+              "x": 0.0257991217,
+              "y": 0.363151968,
+              "z": 0.849567056
+            },
+            {
+              "x": -0.0218442,
+              "y": 0.363151968,
+              "z": 0.754821062
+            },
+            {
+              "x": -0.0756682158,
+              "y": 0.363151848,
+              "z": 0.6585722
+            },
+            {
+              "x": -0.13603352,
+              "y": 0.3631519,
+              "z": 0.590270162
+            },
+            {
+              "x": -0.16936025,
+              "y": 0.3631519,
+              "z": 0.5815805
+            },
+            {
+              "x": -0.175340042,
+              "y": 0.3631519,
+              "z": 0.6618775
+            },
+            {
+              "x": -0.186908647,
+              "y": 0.363152027,
+              "z": 0.776933551
+            },
+            {
+              "x": -0.192957625,
+              "y": 0.363151968,
+              "z": 0.9184258
+            },
+            {
+              "x": -0.198761091,
+              "y": 0.363152027,
+              "z": 1.02260876
+            },
+            {
+              "x": -0.204412252,
+              "y": 0.363152027,
+              "z": 1.10478091
+            },
+            {
+              "x": -0.2045421,
+              "y": 0.363152027,
+              "z": 1.14559841
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.516151547,
+              "y": 0.9773412,
+              "z": 0.699367464
+            },
+            {
+              "x": -0.118103236,
+              "y": 1.07586884,
+              "z": 0.616332531
+            },
+            {
+              "x": -0.0888364,
+              "y": 1.01551366,
+              "z": 0.546443462
+            },
+            {
+              "x": -0.0565944,
+              "y": 0.949022949,
+              "z": 0.413677722
+            },
+            {
+              "x": -0.06112358,
+              "y": 0.958363056,
+              "z": 0.317718983
+            },
+            {
+              "x": -0.291937381,
+              "y": 1.049674,
+              "z": 0.249570608
+            },
+            {
+              "x": -0.5881986,
+              "y": 1.12591934,
+              "z": 0.211564928
+            },
+            {
+              "x": -0.6453998,
+              "y": 1.243882,
+              "z": 0.181426316
+            },
+            {
+              "x": -0.5854845,
+              "y": 1.12032223,
+              "z": 0.150441051
+            },
+            {
+              "x": -0.508406162,
+              "y": 0.9613683,
+              "z": 0.138564453
+            },
+            {
+              "x": -0.08673191,
+              "y": 1.01117373,
+              "z": 0.1067023
+            },
+            {
+              "x": -0.03258711,
+              "y": 0.899514139,
+              "z": 0.07238126
+            },
+            {
+              "x": -0.0925802,
+              "y": 1.02323425,
+              "z": 0.04260251
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1,
+          "rotation": {
+            "x": -6.83018925E-06,
+            "y": -4.27882424E-06,
+            "z": 64.130806
+          }
+        },
+        {
+          "points3": [
+            {
+              "x": -0.6573635,
+              "y": 0.363152385,
+              "z": -1.26116478
+            },
+            {
+              "x": -0.735482752,
+              "y": 0.363152385,
+              "z": -1.16341364
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.9796352,
+              "y": 0.363152266,
+              "z": -1.27606082
+            },
+            {
+              "x": -0.876082,
+              "y": 0.363152325,
+              "z": -1.13012588
+            },
+            {
+              "x": -0.7864467,
+              "y": 0.363152385,
+              "z": -1.01203239
+            },
+            {
+              "x": -0.71048373,
+              "y": 0.363152444,
+              "z": -0.9214134
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.6405259,
+              "y": 0.363152534,
+              "z": -0.469028533
+            },
+            {
+              "x": -0.6405259,
+              "y": 0.363152534,
+              "z": -0.469028533
+            }
+          ],
+          "color": {
+            "r": 0.192,
+            "g": 0.701,
+            "b": 0.168
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.4563813,
+              "y": 0.363151968,
+              "z": 0.7229854
+            },
+            {
+              "x": -0.547597,
+              "y": 0.363151848,
+              "z": 0.720274
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.7688074,
+              "y": 0.3631519,
+              "z": 0.725983
+            },
+            {
+              "x": -0.8423838,
+              "y": 0.363151848,
+              "z": 0.7278838
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.416713178,
+              "y": 0.363152027,
+              "z": 0.9492002
+            },
+            {
+              "x": -0.491523564,
+              "y": 0.363152027,
+              "z": 1.03613281
+            },
+            {
+              "x": -0.5830753,
+              "y": 0.363152027,
+              "z": 1.11803627
+            },
+            {
+              "x": -0.6732525,
+              "y": 0.363152027,
+              "z": 1.115122
+            },
+            {
+              "x": -0.776004732,
+              "y": 0.3631519,
+              "z": 1.08765125
+            },
+            {
+              "x": -0.8743601,
+              "y": 0.3631519,
+              "z": 1.04016352
+            },
+            {
+              "x": -0.9556776,
+              "y": 0.3631519,
+              "z": 0.997186542
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.821959853,
+              "y": 0.3631525,
+              "z": -0.4707674
+            },
+            {
+              "x": -0.821959853,
+              "y": 0.3631525,
+              "z": -0.4707674
+            }
+          ],
+          "color": {
+            "r": 0.192,
+            "g": 0.701,
+            "b": 0.168
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.634941638,
+              "y": 0.363152564,
+              "z": -0.29793793
+            },
+            {
+              "x": -0.6401554,
+              "y": 0.363152564,
+              "z": -0.2561291
+            },
+            {
+              "x": -0.6709092,
+              "y": 0.363152564,
+              "z": -0.224683821
+            },
+            {
+              "x": -0.7007692,
+              "y": 0.363152564,
+              "z": -0.200220466
+            },
+            {
+              "x": -0.7403721,
+              "y": 0.363152564,
+              "z": -0.205257773
+            },
+            {
+              "x": -0.7799749,
+              "y": 0.363152564,
+              "z": -0.2102946
+            },
+            {
+              "x": -0.812125444,
+              "y": 0.363152564,
+              "z": -0.221449971
+            },
+            {
+              "x": -0.835132,
+              "y": 0.363152564,
+              "z": -0.252644658
+            },
+            {
+              "x": -0.8507023,
+              "y": 0.363152564,
+              "z": -0.2899891
+            }
+          ],
+          "color": {
+            "r": 0.192,
+            "g": 0.701,
+            "b": 0.168
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.448948324,
+              "y": 0.3631519,
+              "z": 0.5289643
+            },
+            {
+              "x": -0.448948324,
+              "y": 0.3631519,
+              "z": 0.5289643
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -0.854194939,
+              "y": 0.3631518,
+              "z": 0.5297531
+            },
+            {
+              "x": -0.854194939,
+              "y": 0.3631518,
+              "z": 0.5297531
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        }
+      ]
+    }
+  ]
+}
